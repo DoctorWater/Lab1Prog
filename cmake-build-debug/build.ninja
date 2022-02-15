@@ -61,8 +61,32 @@ build CMakeFiles/Laba1Proga.dir/addProc.cpp.obj: CXX_COMPILER__Laba1Proga_Debug 
   OBJECT_DIR = CMakeFiles\Laba1Proga.dir
   OBJECT_FILE_DIR = CMakeFiles\Laba1Proga.dir
 
+build CMakeFiles/Laba1Proga.dir/roundProc.cpp.obj: CXX_COMPILER__Laba1Proga_Debug C$:/Users/malck/CLionProjects/Laba1Proga/roundProc.cpp || cmake_object_order_depends_target_Laba1Proga
+  DEP_FILE = CMakeFiles\Laba1Proga.dir\roundProc.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Laba1Proga.dir
+  OBJECT_FILE_DIR = CMakeFiles\Laba1Proga.dir
+
+build CMakeFiles/Laba1Proga.dir/add.cpp.obj: CXX_COMPILER__Laba1Proga_Debug C$:/Users/malck/CLionProjects/Laba1Proga/add.cpp || cmake_object_order_depends_target_Laba1Proga
+  DEP_FILE = CMakeFiles\Laba1Proga.dir\add.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Laba1Proga.dir
+  OBJECT_FILE_DIR = CMakeFiles\Laba1Proga.dir
+
 build CMakeFiles/Laba1Proga.dir/round.cpp.obj: CXX_COMPILER__Laba1Proga_Debug C$:/Users/malck/CLionProjects/Laba1Proga/round.cpp || cmake_object_order_depends_target_Laba1Proga
   DEP_FILE = CMakeFiles\Laba1Proga.dir\round.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Laba1Proga.dir
+  OBJECT_FILE_DIR = CMakeFiles\Laba1Proga.dir
+
+build CMakeFiles/Laba1Proga.dir/complex.cpp.obj: CXX_COMPILER__Laba1Proga_Debug C$:/Users/malck/CLionProjects/Laba1Proga/complex.cpp || cmake_object_order_depends_target_Laba1Proga
+  DEP_FILE = CMakeFiles\Laba1Proga.dir\complex.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Laba1Proga.dir
+  OBJECT_FILE_DIR = CMakeFiles\Laba1Proga.dir
+
+build CMakeFiles/Laba1Proga.dir/complexProc.cpp.obj: CXX_COMPILER__Laba1Proga_Debug C$:/Users/malck/CLionProjects/Laba1Proga/complexProc.cpp || cmake_object_order_depends_target_Laba1Proga
+  DEP_FILE = CMakeFiles\Laba1Proga.dir\complexProc.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Laba1Proga.dir
   OBJECT_FILE_DIR = CMakeFiles\Laba1Proga.dir
@@ -75,7 +99,7 @@ build CMakeFiles/Laba1Proga.dir/round.cpp.obj: CXX_COMPILER__Laba1Proga_Debug C$
 #############################################
 # Link the executable Laba1Proga.exe
 
-build Laba1Proga.exe: CXX_EXECUTABLE_LINKER__Laba1Proga_Debug CMakeFiles/Laba1Proga.dir/main.cpp.obj CMakeFiles/Laba1Proga.dir/addProc.cpp.obj CMakeFiles/Laba1Proga.dir/round.cpp.obj
+build Laba1Proga.exe: CXX_EXECUTABLE_LINKER__Laba1Proga_Debug CMakeFiles/Laba1Proga.dir/main.cpp.obj CMakeFiles/Laba1Proga.dir/addProc.cpp.obj CMakeFiles/Laba1Proga.dir/roundProc.cpp.obj CMakeFiles/Laba1Proga.dir/add.cpp.obj CMakeFiles/Laba1Proga.dir/round.cpp.obj CMakeFiles/Laba1Proga.dir/complex.cpp.obj CMakeFiles/Laba1Proga.dir/complexProc.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Laba1Proga.dir

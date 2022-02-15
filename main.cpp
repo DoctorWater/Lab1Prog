@@ -7,23 +7,25 @@ using namespace lab;
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
-    int a, b, choice;
-    cout << "Пожалуйста, введите значения через Enter:" << endl;
-    cin >> a;
-    cin >> b;
-    cout << "Пожалуйста, выберите, как вы хотите сложить числа: с помощью указателей(1) или ссылок(2)" << endl;
+    int choice;
+    cout << "Пожалуйста, выберите, какую процедуру вы хотите исполнить, и введите ее номер:" << endl;
+    cout << "1) Увеличение значения переменной на заданную величину"<<endl;
+    cout << "2) Отбрасывание от вещественного числа его целой части"<<endl;
+    cout << "3) Изменение комплексной переменной на комплексно сопряженную с ней"<<endl;
+    cout << "4) Передвижение квадрата на заданный вектор"<<endl;
     cin >> choice;
     switch (choice) {
         case 1:
-            addP(&a, &b);
-            cout << a << endl;
+            add();
             break;
         case 2:
-           addL(a,b);
-            cout << a << endl;
+            round();
+            break;
+        case 3:
+            complex();
             break;
         default:
-            cout<<"Проверьте корректность ввода!"<<endl;
+            cout << "Проверьте корректность ввода!" << endl;
     }
     return 0;
 }
